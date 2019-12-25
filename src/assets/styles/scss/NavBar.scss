@@ -1,0 +1,43 @@
+nav {
+    ul {
+        list-style-type: none;
+        display: flex;
+
+        li {
+            padding: 4rem;
+            font-weight: bold;
+        }
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    nav {
+        height: 10%;
+
+        ul {
+            li {
+                padding: 1rem;
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width: 400px) {
+    nav {
+        height: 8%;
+        text-align: center;
+
+        ul {
+            align-content: center;
+            flex-wrap: wrap;
+
+            li {
+                font-size: .8rem;
+                padding: .5rem;
+            }
+        }
+
+    }
+}

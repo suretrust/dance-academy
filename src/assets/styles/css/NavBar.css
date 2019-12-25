@@ -1,0 +1,33 @@
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+nav ul li {
+  padding: 4rem;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+  nav {
+    height: 10%;
+  }
+  nav ul li {
+    padding: 1rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  nav {
+    height: 8%;
+    text-align: center;
+  }
+  nav ul {
+    align-content: center;
+    flex-wrap: wrap;
+  }
+  nav ul li {
+    font-size: 0.8rem;
+    padding: 0.5rem;
+  }
+}
+
+/*# sourceMappingURL=NavBar.css.map */
