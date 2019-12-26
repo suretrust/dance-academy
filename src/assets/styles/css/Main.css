@@ -1,0 +1,94 @@
+main {
+  display: flex;
+}
+main h1 {
+  margin: 4rem 0rem 1rem 0px;
+  font-size: 78px;
+  line-height: 65px;
+}
+main p {
+  font-size: 16px;
+  line-height: 20px;
+}
+main .light {
+  font-weight: 100;
+}
+main .bold {
+  font-weight: 400;
+}
+main .bolder {
+  font-weight: 900;
+}
+main .btn {
+  margin-top: 40px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-weight: 900;
+  border-radius: 13px;
+  padding: 9px 70px 9px 70px;
+  background-color: #F50A3B;
+}
+main .btn:hover {
+  opacity: 0.9;
+}
+main img {
+  width: 10%;
+  float: right;
+}
+
+@media screen and (max-width: 1300px) {
+  main img {
+    margin-right: 20vmin !important;
+    margin-top: 6vmin;
+  }
+}
+@media screen and (max-width: 1050px) {
+  main img {
+    margin-right: 20vmin !important;
+    margin-top: 10vmin;
+  }
+}
+@media screen and (max-width: 950px) {
+  main img {
+    margin-right: 20vmin !important;
+    margin-top: 15vmin;
+  }
+}
+@media screen and (max-width: 800px) {
+  main img {
+    width: 30% !important;
+    margin-right: 20vmin !important;
+    margin-top: 15vmin;
+  }
+
+  h1 {
+    font-size: 60px !important;
+    line-height: 55px !important;
+  }
+
+  .btn {
+    padding: 9px 60px 9px 60px !important;
+  }
+
+  .image {
+    display: none;
+  }
+}
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 55px !important;
+    line-height: 50px !important;
+  }
+
+  p {
+    font-size: 13px !important;
+    line-height: 15px !important;
+  }
+
+  .btn {
+    padding: 9px 40px 9px 40px !important;
+  }
+}
+
+/*# sourceMappingURL=Main.css.map */
