@@ -5,7 +5,7 @@ const NavBar = () => {
   return (
     <nav>
       <ul>
-        <li>Dancers</li>
+        <li className="first">Dancers</li>
         <li>Awards</li>
         <li>About</li>
         <li>Contact</li>
