@@ -4,7 +4,7 @@ nav {
         display: flex;
 
         li {
-            padding: 4rem;
+            padding: 3rem 5rem 3rem 0rem;
             font-weight: bold;
         }
     }
@@ -17,7 +17,7 @@ nav {
 
         ul {
             li {
-                padding: 1rem;
+                padding: 1rem 2rem 1rem 0;
             }
         }
 
@@ -27,10 +27,8 @@ nav {
 @media screen and (max-width: 400px) {
     nav {
         height: 8%;
-        text-align: center;
 
         ul {
-            align-content: center;
             flex-wrap: wrap;
 
             li {
