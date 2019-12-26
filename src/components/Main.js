@@ -17,7 +17,9 @@ const Main = () => {
           <span className="bolder">dance your way to the top.</span>
         </p>
         <p className="bolder">Let's get started!</p>
-        <button className="btn">SIGN UP</button>
+        <button type="button" className="btn">
+          SIGN UP
+        </button>
       </div>
       <div className="image">
         <img src={Music} alt="X" />
