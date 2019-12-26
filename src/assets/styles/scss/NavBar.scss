@@ -6,6 +6,11 @@ nav {
         li {
             padding: 3rem 5rem 3rem 0rem;
             font-weight: bold;
+
+            &:hover {
+                cursor: pointer;
+                opacity: .8;
+            }
         }
     }
 

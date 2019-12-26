@@ -6,6 +6,10 @@ nav ul li {
   padding: 3rem 5rem 3rem 0rem;
   font-weight: bold;
 }
+nav ul li:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
 
 @media screen and (max-width: 800px) {
   nav {

@@ -8,7 +8,9 @@
 
 > This is a one page UI concept of a dance academy website design which was designed by [Berkay Arpacian on Dribbble](https://dribbble.com/shots/8836789-Dance-Academy-Concept-UI-Design).
 
-### ✨ [Demo](jnkds)
+![dance-academy](https://i.ibb.co/RB5NJSw/dance-academy.png)
+
+### ✨ [Demo](https://dance-academy.netlify.com)
 
 ## Install
 
