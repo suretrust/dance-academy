@@ -19,10 +19,20 @@ npm install
 ```
 
 ## Usage
+#### Clone the repository to your local machine
+`git clone https://github.com/suretrust/dance-academy.git`
 
-```sh
-npm run start
-```
+#### Change directory into the directory
+`cd dance-academy`
+
+#### Install dependencies
+`npm install`
+
+#### Start the app
+`npm start`
+
+###### If it doesn't open automatically, open `http://localhost:3000` using your browser.
+
 
 ## Run tests
 
